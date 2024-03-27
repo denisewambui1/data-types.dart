@@ -1,0 +1,31 @@
+// Data types
+void main() {
+  //number data, there are two, int and double, int is for whole numbers while double is for decimal numbers 
+  int num1=256;
+  double num2=1891.5376;
+ 
+  //string data type, stores text data
+  String company='Facebook';
+  
+  //boolean data type, this holds the true/false value, used in questions where the answer needed is either true or false 
+  bool isEmployed=true;
+ 
+  //lists, its used to store multipes values without creating multiple variables
+  List<String> names= ["Google", 'Amazon', "Youtube"];
+  
+  //Maps, represents a st of values as key-value pairs
+  Map<String, String> capitals={
+    'Kenya': 'Nairobi',
+    'South Africa': 'Pretoria',
+  };
+  
+   print('$num1');
+  print('$num2');
+  print('Company is' $company);
+  print('$isEmployed');
+  print('$names');
+
+  capitals.forEach ((country, capital) {
+  print('$capitals');
+  });
+}
